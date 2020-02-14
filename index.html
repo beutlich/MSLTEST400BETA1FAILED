@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+  <head>
+<style type="text/css">
+body{ background: #EEEEEE; color: #000; text-align: center;}
+body, table{ font-family: Arial, Helvetica, sans-serif; font-size: 12px; }
+#page{ width: 700px; margin: auto; text-align: left; background-color: #FFF;}
+table.info{ border: 0; width: 690px; margin: 5px;}
+table.info td{ background-color: #efefef; padding: 1em;}
+table.info td.header{ font-weight: bold; width: 150px; background-color: #EEE;}
+table.info td.error, span.error { background-color: #F5A9BC; color: red; }
+table.info td.ok, span.ok{ background-color: #CDFECD; color: green; }
+table.info td.untested, span.untested{ background-color: #DDD; color: #999; }
+table.info td.right{ text-align: right; }
+h1{ font-size: 16px; padding: 1em; }
+</style>
+</head>
+<body>
+<div id="page">
+<table class="info">
+	<tr><td colspan="3" class="header"><h1>Meta report - CSV file comparison</h1></td></tr>
+	<tr><td colspan="2" class="header">Timestamp:</td><td>14.02.2020 15:50:41 [UTC]</td></tr>
+	<tr><td colspan="2" class="header">Mode:</td><td>CsvTreeCompare</td></tr>
+	<tr><td colspan="2" class="header">Base directory:</td><td>c:\Projekte\MAP-LIB_ReferenceResults\</td></tr>
+	<tr><td colspan="2" class="header">Compare directory:</td><td>c:\compare\Failed\</td></tr>
+	<tr><td colspan="2" class="header">Verbosity:</td><td>2</td></tr>
+	<tr><td colspan="2" class="header">Tolerance:</td><td>2e-3</td></tr>
+	<tr><td colspan="2" class="header">Logfile:</td><td><a href="log.txt">log.txt</a></td></tr>
+	<tr><td colspan="2" class="header">Loglevel:</td><td>Debug</td></tr>
+	<tr><td colspan="2" class="header">Compared files:</td><td>The compare directory contained 7 files.<br/>6 files were tested.<br/>6 files failed.<br/>Success rate is 0,0%.</td></tr>
+<tr><td class="header" colspan="3">Results</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>FAILED - At least one result failed its check with the base file.<br/>UNTESTED - No base file has been found or an exception occurred.<br/>SUCCEEDED - All results have been checked and are valid.</td></tr>
+<tr><td colspan="2" class="untested right">UNTESTED</td><td class="untested">ModelicaTest\Electrical\MultiSensorTest\MultiSensorTest.csv</td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;5,21</td><td class="error"><a href="ModelicaTest.Fluid.TestExamplesVariants.HeatingSystem_FixedInitial.HeatingSystem_FixedInitial_report.html">ModelicaTest\Fluid\TestExamplesVariants\HeatingSystem_FixedInitial\HeatingSystem_FixedInitial.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;17,85</td><td class="error"><a href="ModelicaTest.Fluid.TestExamplesVariants.HeatingSystem_SteadyState.HeatingSystem_SteadyState_report.html">ModelicaTest\Fluid\TestExamplesVariants\HeatingSystem_SteadyState\HeatingSystem_SteadyState.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,00</td><td class="error"><a href="ModelicaTest.Media.TestAllProperties.FlueGasSixComponents.FlueGasSixComponents_report.html">ModelicaTest\Media\TestAllProperties\FlueGasSixComponents\FlueGasSixComponents.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,00</td><td class="error"><a href="ModelicaTest.Media.TestAllProperties.SimpleAir.SimpleAir_report.html">ModelicaTest\Media\TestAllProperties\SimpleAir\SimpleAir.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,00</td><td class="error"><a href="ModelicaTest.MultiBody.InitializationConversion.Joints.Joints_report.html">ModelicaTest\MultiBody\InitializationConversion\Joints\Joints.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;236,71</td><td class="error"><a href="ModelicaTest.MultiBody.Joints.UniversalSpherical.UniversalSpherical_report.html">ModelicaTest\MultiBody\Joints\UniversalSpherical\UniversalSpherical.csv</a></td></tr>
+</table>
+</div>
+  </body>
+</html>
+

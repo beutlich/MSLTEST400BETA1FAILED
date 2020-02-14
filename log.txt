@@ -1,0 +1,1037 @@
+﻿2020-02-14Z16:49:46 [       Debug ] Starting new result check @14.02.2020 16:49:46
+2020-02-14Z16:49:46 [       Debug ] Parsing command line options: 
+ * --mode csvTreeCompare --override --bitmap --tolerance 2e-3 --delimiter , --verbosity 2 c:\Projekte\MSL\ModelicaTest\Resources\Reference\ c:\Projekte\MAP-LIB_ReferenceResults\ --logfile log.txt --comparisonflag --reportdir c:\temp\ModelicaTest-4.0.0-beta1Compare2.exe --mode csvTreeCompare --override --tolerance 2e-3 --delimiter , --verbosity 2 c:\compare\Failed\ c:\Projekte\MAP-LIB_ReferenceResults\ --logfile log.txt --comparisonflag --reportdir c:\compare\MSLTEST400BETA1FAILED\
+2020-02-14Z16:49:46 [       Debug ] Successfully parsed the following options:
+2020-02-14Z16:49:46 [       Debug ] Operation mode is CsvTreeCompare
+2020-02-14Z16:49:46 [       Debug ] Tolerance is 2e-3
+2020-02-14Z16:49:46 [       Debug ] Delimiter to be used to parse CSV has been explicitly set and is ","
+2020-02-14Z16:49:46 [       Debug ] Logfile is log.txt
+2020-02-14Z16:49:46 [       Error ] Not enough arguments have been given. Please specify base and compare directory.
+2020-02-14Z16:50:14 [       Debug ] Starting new result check @14.02.2020 16:50:14
+2020-02-14Z16:50:14 [       Debug ] Parsing command line options: 
+ * --mode csvTreeCompare --override --tolerance 2e-3 --delimiter , --verbosity 2 c:\compare\Failed\ c:\Projekte\MAP-LIB_ReferenceResults\ --logfile log.txt --comparisonflag --reportdir c:\compare\MSLTEST400BETA1FAILED\
+2020-02-14Z16:50:14 [       Debug ] Successfully parsed the following options:
+2020-02-14Z16:50:14 [       Debug ] Operation mode is CsvTreeCompare
+2020-02-14Z16:50:14 [       Debug ] Tolerance is 2e-3
+2020-02-14Z16:50:14 [       Debug ] Delimiter to be used to parse CSV has been explicitly set and is ","
+2020-02-14Z16:50:14 [       Debug ] Logfile is log.txt
+2020-02-14Z16:50:14 [       Debug ] Searching for file MultiSensorTest.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-14Z16:50:14 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorA.i" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorA.v" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorA.power" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorM.i[1]" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorM.i[2]" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorM.i[3]" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorM.v[1]" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorM.v[2]" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorM.v[3]" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorM.power[1]" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorM.power[2]" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorM.power[3]" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorM.powerTotal" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorQS.i.re" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorQS.i.im" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorQS.v.re" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorQS.v.im" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorQS.apparentPower.re" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorQS.apparentPower.im" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorQM.i[1].re" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorQM.i[1].im" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorQM.i[2].re" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorQM.i[2].im" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorQM.i[3].re" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorQM.i[3].im" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorQM.v[1].re" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorQM.v[1].im" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorQM.v[2].re" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorQM.v[2].im" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorQM.v[3].re" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorQM.v[3].im" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorQM.apparentPower[1].re" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorQM.apparentPower[1].im" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorQM.apparentPower[2].re" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorQM.apparentPower[2].im" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorQM.apparentPower[3].re" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorQM.apparentPower[3].im" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorQM.apparentPowerTotal.re" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "multiSensorQM.apparentPowerTotal.im" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "rmsvA.y" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "rmsiA.y" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "meanpowerA.y" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "rmsvM[1].y" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "rmsvM[2].y" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "rmsvM[3].y" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "rmsiM[1].y" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "rmsiM[2].y" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "rmsiM[3].y" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "meanpowerM[1].y" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "meanpowerM[2].y" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "meanpowerM[3].y" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "inductorA.i" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "inductorM.inductor[1].i" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "inductorM.inductor[2].i" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "inductorM.inductor[3].i" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "meanpowerA.x" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "meanpowerM[1].x" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "meanpowerM[2].x" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "meanpowerM[3].x" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "resistorQM.plug_p.reference.gamma" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "resistorQS.pin_p.reference.gamma" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "rmsiA.mean.x" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "rmsiM[1].mean.x" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "rmsiM[2].mean.x" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "rmsiM[3].mean.x" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "rmsvA.mean.x" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "rmsvM[1].mean.x" seems to be text, this is good.
+2020-02-14Z16:50:14 [       Debug ] Column "rmsvM[2].mean.x" seems to be text, this is good.
+2020-02-14Z16:50:15 [       Debug ] Column "rmsvM[3].mean.x" seems to be text, this is good.
+2020-02-14Z16:50:15 [       Debug ] Exiting with exit code "0".
+2020-02-14Z16:50:15 [ Information ] Comparing "c:\compare\Failed\ModelicaTest\Electrical\MultiSensorTest\MultiSensorTest.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\ModelicaTest\Electrical\MultiSensorTest\MultiSensorTest.csv"
+2020-02-14Z16:50:15 [     Warning ] inductorA.i not found in "c:\compare\Failed\ModelicaTest\Electrical\MultiSensorTest\MultiSensorTest.csv", skipping checks.
+2020-02-14Z16:50:15 [     Warning ] inductorM.inductor[1].i not found in "c:\compare\Failed\ModelicaTest\Electrical\MultiSensorTest\MultiSensorTest.csv", skipping checks.
+2020-02-14Z16:50:15 [     Warning ] inductorM.inductor[2].i not found in "c:\compare\Failed\ModelicaTest\Electrical\MultiSensorTest\MultiSensorTest.csv", skipping checks.
+2020-02-14Z16:50:15 [     Warning ] inductorM.inductor[3].i not found in "c:\compare\Failed\ModelicaTest\Electrical\MultiSensorTest\MultiSensorTest.csv", skipping checks.
+2020-02-14Z16:50:15 [     Warning ] meanpowerA.x not found in "c:\compare\Failed\ModelicaTest\Electrical\MultiSensorTest\MultiSensorTest.csv", skipping checks.
+2020-02-14Z16:50:15 [     Warning ] meanpowerM[1].x not found in "c:\compare\Failed\ModelicaTest\Electrical\MultiSensorTest\MultiSensorTest.csv", skipping checks.
+2020-02-14Z16:50:15 [     Warning ] meanpowerM[2].x not found in "c:\compare\Failed\ModelicaTest\Electrical\MultiSensorTest\MultiSensorTest.csv", skipping checks.
+2020-02-14Z16:50:15 [     Warning ] meanpowerM[3].x not found in "c:\compare\Failed\ModelicaTest\Electrical\MultiSensorTest\MultiSensorTest.csv", skipping checks.
+2020-02-14Z16:50:15 [     Warning ] resistorQM.plug_p.reference.gamma not found in "c:\compare\Failed\ModelicaTest\Electrical\MultiSensorTest\MultiSensorTest.csv", skipping checks.
+2020-02-14Z16:50:15 [     Warning ] resistorQS.pin_p.reference.gamma not found in "c:\compare\Failed\ModelicaTest\Electrical\MultiSensorTest\MultiSensorTest.csv", skipping checks.
+2020-02-14Z16:50:15 [     Warning ] rmsiA.mean.x not found in "c:\compare\Failed\ModelicaTest\Electrical\MultiSensorTest\MultiSensorTest.csv", skipping checks.
+2020-02-14Z16:50:15 [     Warning ] rmsiM[1].mean.x not found in "c:\compare\Failed\ModelicaTest\Electrical\MultiSensorTest\MultiSensorTest.csv", skipping checks.
+2020-02-14Z16:50:15 [     Warning ] rmsiM[2].mean.x not found in "c:\compare\Failed\ModelicaTest\Electrical\MultiSensorTest\MultiSensorTest.csv", skipping checks.
+2020-02-14Z16:50:15 [     Warning ] rmsiM[3].mean.x not found in "c:\compare\Failed\ModelicaTest\Electrical\MultiSensorTest\MultiSensorTest.csv", skipping checks.
+2020-02-14Z16:50:15 [     Warning ] rmsvA.mean.x not found in "c:\compare\Failed\ModelicaTest\Electrical\MultiSensorTest\MultiSensorTest.csv", skipping checks.
+2020-02-14Z16:50:15 [     Warning ] rmsvM[1].mean.x not found in "c:\compare\Failed\ModelicaTest\Electrical\MultiSensorTest\MultiSensorTest.csv", skipping checks.
+2020-02-14Z16:50:15 [     Warning ] rmsvM[2].mean.x not found in "c:\compare\Failed\ModelicaTest\Electrical\MultiSensorTest\MultiSensorTest.csv", skipping checks.
+2020-02-14Z16:50:15 [     Warning ] rmsvM[3].mean.x not found in "c:\compare\Failed\ModelicaTest\Electrical\MultiSensorTest\MultiSensorTest.csv", skipping checks.
+2020-02-14Z16:50:15 [ Information ] Report has been written to: c:\compare\MSLTEST400BETA1FAILED\ModelicaTest.Electrical.MultiSensorTest.MultiSensorTest_report.html
+2020-02-14Z16:50:15 [       Debug ] Searching for file HeatingSystem_FixedInitial.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-14Z16:50:15 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-14Z16:50:15 [       Debug ] Column "heater.mediums[1].h" seems to be text, this is good.
+2020-02-14Z16:50:15 [       Debug ] Column "heater.mediums[1].p" seems to be text, this is good.
+2020-02-14Z16:50:15 [       Debug ] Column "pipe.mediums[1].h" seems to be text, this is good.
+2020-02-14Z16:50:15 [       Debug ] Column "pipe.mediums[1].p" seems to be text, this is good.
+2020-02-14Z16:50:15 [       Debug ] Column "pipe.mediums[2].h" seems to be text, this is good.
+2020-02-14Z16:50:15 [       Debug ] Column "pipe.mediums[2].p" seems to be text, this is good.
+2020-02-14Z16:50:15 [       Debug ] Column "radiator.mediums[1].h" seems to be text, this is good.
+2020-02-14Z16:50:15 [       Debug ] Column "radiator.mediums[1].p" seems to be text, this is good.
+2020-02-14Z16:50:15 [       Debug ] Column "tank.level" seems to be text, this is good.
+2020-02-14Z16:50:15 [       Debug ] Column "tank.medium.h" seems to be text, this is good.
+2020-02-14Z16:50:15 [       Debug ] Column "heater.mediums[1].h" seems to be text, this is good.
+2020-02-14Z16:50:15 [       Debug ] Column "heater.mediums[1].p" seems to be text, this is good.
+2020-02-14Z16:50:15 [       Debug ] Column "pipe.mediums[1].h" seems to be text, this is good.
+2020-02-14Z16:50:15 [       Debug ] Column "pipe.mediums[1].p" seems to be text, this is good.
+2020-02-14Z16:50:15 [       Debug ] Column "pipe.mediums[2].h" seems to be text, this is good.
+2020-02-14Z16:50:15 [       Debug ] Column "pipe.mediums[2].p" seems to be text, this is good.
+2020-02-14Z16:50:15 [       Debug ] Column "radiator.mediums[1].h" seems to be text, this is good.
+2020-02-14Z16:50:15 [       Debug ] Column "radiator.mediums[1].p" seems to be text, this is good.
+2020-02-14Z16:50:15 [       Debug ] Column "tank.level" seems to be text, this is good.
+2020-02-14Z16:50:15 [       Debug ] Column "tank.medium.h" seems to be text, this is good.
+2020-02-14Z16:50:15 [       Debug ] Exiting with exit code "0".
+2020-02-14Z16:50:15 [ Information ] Comparing "c:\compare\Failed\ModelicaTest\Fluid\TestExamplesVariants\HeatingSystem_FixedInitial\HeatingSystem_FixedInitial.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\ModelicaTest\Fluid\TestExamplesVariants\HeatingSystem_FixedInitial\HeatingSystem_FixedInitial.csv"
+2020-02-14Z16:50:15 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:15 [ Information ] heater.mediums[1].h is valid
+2020-02-14Z16:50:15 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:15 [ Information ] heater.mediums[1].p is valid
+2020-02-14Z16:50:15 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:15 [ Information ] pipe.mediums[1].h is valid
+2020-02-14Z16:50:15 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:15 [ Information ] pipe.mediums[1].p is valid
+2020-02-14Z16:50:16 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:16 [ Information ] pipe.mediums[2].h is valid
+2020-02-14Z16:50:16 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:16 [ Information ] pipe.mediums[2].p is valid
+2020-02-14Z16:50:16 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:16 [     Warning ] radiator.mediums[1].h is invalid! 3258 errors have been found during validation.
+2020-02-14Z16:50:16 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:16 [ Information ] radiator.mediums[1].p is valid
+2020-02-14Z16:50:16 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:16 [ Information ] tank.level is valid
+2020-02-14Z16:50:16 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:16 [     Warning ] tank.medium.h is invalid! 2563 errors have been found during validation.
+2020-02-14Z16:50:16 [ Information ] Report has been written to: c:\compare\MSLTEST400BETA1FAILED\ModelicaTest.Fluid.TestExamplesVariants.HeatingSystem_FixedInitial.HeatingSystem_FixedInitial_report.html
+2020-02-14Z16:50:16 [       Debug ] Searching for file HeatingSystem_SteadyState.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-14Z16:50:16 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-14Z16:50:16 [       Debug ] Column "tank.m" seems to be text, this is good.
+2020-02-14Z16:50:16 [       Debug ] Column "m_flow" seems to be text, this is good.
+2020-02-14Z16:50:16 [       Debug ] Column "T_forward" seems to be text, this is good.
+2020-02-14Z16:50:16 [       Debug ] Column "T_return" seems to be text, this is good.
+2020-02-14Z16:50:16 [       Debug ] Column "tankLevel" seems to be text, this is good.
+2020-02-14Z16:50:16 [       Debug ] Column "tank.ports[1].m_flow" seems to be text, this is good.
+2020-02-14Z16:50:16 [       Debug ] Column "tank.ports[1].p" seems to be text, this is good.
+2020-02-14Z16:50:16 [       Debug ] Column "tank.ports[1].h_outflow" seems to be text, this is good.
+2020-02-14Z16:50:16 [       Debug ] Column "tank.ports[2].m_flow" seems to be text, this is good.
+2020-02-14Z16:50:16 [       Debug ] Column "tank.ports[2].p" seems to be text, this is good.
+2020-02-14Z16:50:16 [       Debug ] Column "tank.ports[2].h_outflow" seems to be text, this is good.
+2020-02-14Z16:50:16 [       Debug ] Column "tank.portsData[1].diameter" seems to be text, this is good.
+2020-02-14Z16:50:16 [       Debug ] Column "tank.portsData[1].height" seems to be text, this is good.
+2020-02-14Z16:50:16 [       Debug ] Column "tank.portsData[1].zeta_out" seems to be text, this is good.
+2020-02-14Z16:50:16 [       Debug ] Column "tank.portsData[1].zeta_in" seems to be text, this is good.
+2020-02-14Z16:50:16 [       Debug ] Column "tank.portsData[2].diameter" seems to be text, this is good.
+2020-02-14Z16:50:16 [       Debug ] Column "tank.portsData[2].height" seems to be text, this is good.
+2020-02-14Z16:50:16 [       Debug ] Column "tank.portsData[2].zeta_out" seems to be text, this is good.
+2020-02-14Z16:50:16 [       Debug ] Column "tank.portsData[2].zeta_in" seems to be text, this is good.
+2020-02-14Z16:50:16 [       Debug ] Column "tank.ports_H_flow[1]" seems to be text, this is good.
+2020-02-14Z16:50:16 [       Debug ] Column "tank.ports_H_flow[2]" seems to be text, this is good.
+2020-02-14Z16:50:16 [       Debug ] Column "tank.ports_E_flow[1]" seems to be text, this is good.
+2020-02-14Z16:50:16 [       Debug ] Column "tank.ports_E_flow[2]" seems to be text, this is good.
+2020-02-14Z16:50:16 [       Debug ] Column "tank.ports_penetration[1]" seems to be text, this is good.
+2020-02-14Z16:50:16 [       Debug ] Column "tank.ports_penetration[2]" seems to be text, this is good.
+2020-02-14Z16:50:16 [       Debug ] Column "tank.portsData_diameter_internal[1]" seems to be text, this is good.
+2020-02-14Z16:50:16 [       Debug ] Column "tank.portsData_diameter_internal[2]" seems to be text, this is good.
+2020-02-14Z16:50:16 [       Debug ] Column "tank.portsData_height_internal[1]" seems to be text, this is good.
+2020-02-14Z16:50:16 [       Debug ] Column "tank.portsData_height_internal[2]" seems to be text, this is good.
+2020-02-14Z16:50:16 [       Debug ] Column "tank.portsData_zeta_in_internal[1]" seems to be text, this is good.
+2020-02-14Z16:50:16 [       Debug ] Column "tank.portsData_zeta_in_internal[2]" seems to be text, this is good.
+2020-02-14Z16:50:16 [       Debug ] Column "tank.portsData_zeta_out_internal[1]" seems to be text, this is good.
+2020-02-14Z16:50:16 [       Debug ] Column "tank.portsData_zeta_out_internal[2]" seems to be text, this is good.
+2020-02-14Z16:50:16 [       Debug ] Column "tank.portsData_diameter[1]" seems to be text, this is good.
+2020-02-14Z16:50:16 [       Debug ] Column "tank.portsData_diameter[2]" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.portsData_height[1]" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.portsData_height[2]" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.portsData_zeta_in[1]" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.portsData_zeta_in[2]" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.portsData_zeta_out[1]" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.portsData_zeta_out[2]" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "pump.port_b.m_flow" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "pump.port_b.p" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "pump.port_b.h_outflow" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "valve.port_b.m_flow" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "valve.port_b.p" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "valve.port_b.h_outflow" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "valve.minLimiter.y" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "sensor_m_flow.port_b.m_flow" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "sensor_m_flow.port_b.p" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "sensor_m_flow.port_b.h_outflow" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "heater.port_b.m_flow" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "heater.port_b.p" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "heater.port_b.h_outflow" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "radiator.port_b.m_flow" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "radiator.port_b.p" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "radiator.port_b.h_outflow" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "handle.y" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "pipe.port_b.m_flow" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "pipe.port_b.p" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "pipe.port_b.h_outflow" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.m" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "m_flow" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "T_forward" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "T_return" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tankLevel" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.ports[1].m_flow" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.ports[1].p" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.ports[1].h_outflow" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.ports[2].m_flow" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.ports[2].p" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.ports[2].h_outflow" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.portsData[1].diameter" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.portsData[1].height" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.portsData[1].zeta_out" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.portsData[1].zeta_in" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.portsData[2].diameter" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.portsData[2].height" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.portsData[2].zeta_out" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.portsData[2].zeta_in" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.ports_H_flow[1]" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.ports_H_flow[2]" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.ports_E_flow[1]" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.ports_E_flow[2]" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.ports_penetration[1]" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.ports_penetration[2]" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.portsData_diameter_internal[1]" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.portsData_diameter_internal[2]" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.portsData_height_internal[1]" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.portsData_height_internal[2]" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.portsData_zeta_in_internal[1]" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.portsData_zeta_in_internal[2]" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.portsData_zeta_out_internal[1]" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.portsData_zeta_out_internal[2]" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.portsData_diameter[1]" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.portsData_diameter[2]" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.portsData_height[1]" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.portsData_height[2]" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.portsData_zeta_in[1]" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.portsData_zeta_in[2]" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.portsData_zeta_out[1]" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "tank.portsData_zeta_out[2]" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "pump.port_b.m_flow" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "pump.port_b.p" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "pump.port_b.h_outflow" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "valve.port_b.m_flow" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "valve.port_b.p" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "valve.port_b.h_outflow" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "valve.minLimiter.y" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "sensor_m_flow.port_b.m_flow" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "sensor_m_flow.port_b.p" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "sensor_m_flow.port_b.h_outflow" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "heater.port_b.m_flow" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "heater.port_b.p" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "heater.port_b.h_outflow" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "radiator.port_b.m_flow" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "radiator.port_b.p" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "radiator.port_b.h_outflow" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "handle.y" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "pipe.port_b.m_flow" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "pipe.port_b.p" seems to be text, this is good.
+2020-02-14Z16:50:17 [       Debug ] Column "pipe.port_b.h_outflow" seems to be text, this is good.
+2020-02-14Z16:50:18 [       Debug ] Exiting with exit code "1".
+2020-02-14Z16:50:18 [ Information ] Comparing "c:\compare\Failed\ModelicaTest\Fluid\TestExamplesVariants\HeatingSystem_SteadyState\HeatingSystem_SteadyState.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\ModelicaTest\Fluid\TestExamplesVariants\HeatingSystem_SteadyState\HeatingSystem_SteadyState.csv"
+2020-02-14Z16:50:18 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:18 [ Information ] tank.m is valid
+2020-02-14Z16:50:18 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:18 [     Warning ] m_flow is invalid! 3336 errors have been found during validation.
+2020-02-14Z16:50:18 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:18 [ Information ] T_forward is valid
+2020-02-14Z16:50:18 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:18 [ Information ] T_return is valid
+2020-02-14Z16:50:18 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:18 [ Information ] tankLevel is valid
+2020-02-14Z16:50:18 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:18 [     Warning ] tank.ports[1].m_flow is invalid! 3336 errors have been found during validation.
+2020-02-14Z16:50:18 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:18 [ Information ] tank.ports[1].p is valid
+2020-02-14Z16:50:18 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:18 [     Warning ] tank.ports[1].h_outflow is invalid! 3336 errors have been found during validation.
+2020-02-14Z16:50:18 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:18 [     Warning ] tank.ports[2].m_flow is invalid! 3336 errors have been found during validation.
+2020-02-14Z16:50:18 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:18 [ Information ] tank.ports[2].p is valid
+2020-02-14Z16:50:18 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:18 [     Warning ] tank.ports[2].h_outflow is invalid! 3336 errors have been found during validation.
+2020-02-14Z16:50:18 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:18 [ Information ] tank.portsData[1].diameter is valid
+2020-02-14Z16:50:18 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:18 [ Information ] tank.portsData[1].height is valid
+2020-02-14Z16:50:18 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:18 [ Information ] tank.portsData[1].zeta_out is valid
+2020-02-14Z16:50:18 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:18 [ Information ] tank.portsData[1].zeta_in is valid
+2020-02-14Z16:50:18 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:18 [ Information ] tank.portsData[2].diameter is valid
+2020-02-14Z16:50:18 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:18 [ Information ] tank.portsData[2].height is valid
+2020-02-14Z16:50:18 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:18 [ Information ] tank.portsData[2].zeta_out is valid
+2020-02-14Z16:50:18 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:18 [ Information ] tank.portsData[2].zeta_in is valid
+2020-02-14Z16:50:18 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:18 [     Warning ] tank.ports_H_flow[1] is invalid! 3336 errors have been found during validation.
+2020-02-14Z16:50:18 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:18 [     Warning ] tank.ports_H_flow[2] is invalid! 3336 errors have been found during validation.
+2020-02-14Z16:50:18 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:18 [     Warning ] tank.ports_E_flow[1] is invalid! 3336 errors have been found during validation.
+2020-02-14Z16:50:18 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:18 [     Warning ] tank.ports_E_flow[2] is invalid! 3336 errors have been found during validation.
+2020-02-14Z16:50:19 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:19 [ Information ] tank.ports_penetration[1] is valid
+2020-02-14Z16:50:19 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:19 [ Information ] tank.ports_penetration[2] is valid
+2020-02-14Z16:50:19 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:19 [ Information ] tank.portsData_diameter_internal[1] is valid
+2020-02-14Z16:50:19 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:19 [ Information ] tank.portsData_diameter_internal[2] is valid
+2020-02-14Z16:50:19 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:19 [ Information ] tank.portsData_height_internal[1] is valid
+2020-02-14Z16:50:19 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:19 [ Information ] tank.portsData_height_internal[2] is valid
+2020-02-14Z16:50:19 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:19 [ Information ] tank.portsData_zeta_in_internal[1] is valid
+2020-02-14Z16:50:19 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:19 [ Information ] tank.portsData_zeta_in_internal[2] is valid
+2020-02-14Z16:50:19 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:19 [ Information ] tank.portsData_zeta_out_internal[1] is valid
+2020-02-14Z16:50:19 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:19 [ Information ] tank.portsData_zeta_out_internal[2] is valid
+2020-02-14Z16:50:19 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:19 [ Information ] tank.portsData_diameter[1] is valid
+2020-02-14Z16:50:19 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:19 [ Information ] tank.portsData_diameter[2] is valid
+2020-02-14Z16:50:19 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:19 [ Information ] tank.portsData_height[1] is valid
+2020-02-14Z16:50:19 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:19 [ Information ] tank.portsData_height[2] is valid
+2020-02-14Z16:50:19 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:19 [ Information ] tank.portsData_zeta_in[1] is valid
+2020-02-14Z16:50:19 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:19 [ Information ] tank.portsData_zeta_in[2] is valid
+2020-02-14Z16:50:19 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:19 [ Information ] tank.portsData_zeta_out[1] is valid
+2020-02-14Z16:50:19 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:19 [ Information ] tank.portsData_zeta_out[2] is valid
+2020-02-14Z16:50:19 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:19 [     Warning ] pump.port_b.m_flow is invalid! 3336 errors have been found during validation.
+2020-02-14Z16:50:19 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:19 [ Information ] pump.port_b.p is valid
+2020-02-14Z16:50:19 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:19 [     Warning ] pump.port_b.h_outflow is invalid! 3336 errors have been found during validation.
+2020-02-14Z16:50:19 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:19 [     Warning ] valve.port_b.m_flow is invalid! 3336 errors have been found during validation.
+2020-02-14Z16:50:19 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:19 [ Information ] valve.port_b.p is valid
+2020-02-14Z16:50:19 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:19 [ Information ] valve.port_b.h_outflow is valid
+2020-02-14Z16:50:19 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:19 [ Information ] valve.minLimiter.y is valid
+2020-02-14Z16:50:19 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:19 [     Warning ] sensor_m_flow.port_b.m_flow is invalid! 3336 errors have been found during validation.
+2020-02-14Z16:50:20 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:20 [ Information ] sensor_m_flow.port_b.p is valid
+2020-02-14Z16:50:20 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:20 [     Warning ] sensor_m_flow.port_b.h_outflow is invalid! 3336 errors have been found during validation.
+2020-02-14Z16:50:20 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:20 [     Warning ] heater.port_b.m_flow is invalid! 3336 errors have been found during validation.
+2020-02-14Z16:50:20 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:20 [ Information ] heater.port_b.p is valid
+2020-02-14Z16:50:20 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:20 [ Information ] heater.port_b.h_outflow is valid
+2020-02-14Z16:50:20 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:20 [     Warning ] radiator.port_b.m_flow is invalid! 3336 errors have been found during validation.
+2020-02-14Z16:50:20 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:20 [ Information ] radiator.port_b.p is valid
+2020-02-14Z16:50:20 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:20 [     Warning ] radiator.port_b.h_outflow is invalid! 3336 errors have been found during validation.
+2020-02-14Z16:50:20 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:20 [ Information ] handle.y is valid
+2020-02-14Z16:50:20 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:20 [     Warning ] pipe.port_b.m_flow is invalid! 3336 errors have been found during validation.
+2020-02-14Z16:50:20 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:20 [ Information ] pipe.port_b.p is valid
+2020-02-14Z16:50:20 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:20 [ Information ] pipe.port_b.h_outflow is valid
+2020-02-14Z16:50:22 [ Information ] Report has been written to: c:\compare\MSLTEST400BETA1FAILED\ModelicaTest.Fluid.TestExamplesVariants.HeatingSystem_SteadyState.HeatingSystem_SteadyState_report.html
+2020-02-14Z16:50:22 [       Debug ] Searching for file FlueGasSixComponents.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-14Z16:50:22 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-14Z16:50:22 [       Debug ] Column "eta" seems to be text, this is good.
+2020-02-14Z16:50:22 [       Debug ] Column "lambda" seems to be text, this is good.
+2020-02-14Z16:50:22 [       Debug ] Column "Pr" seems to be text, this is good.
+2020-02-14Z16:50:22 [       Debug ] Column "p" seems to be text, this is good.
+2020-02-14Z16:50:22 [       Debug ] Column "T" seems to be text, this is good.
+2020-02-14Z16:50:22 [       Debug ] Column "d" seems to be text, this is good.
+2020-02-14Z16:50:22 [       Debug ] Column "h" seems to be text, this is good.
+2020-02-14Z16:50:22 [       Debug ] Column "u" seems to be text, this is good.
+2020-02-14Z16:50:22 [       Debug ] Column "s" seems to be text, this is good.
+2020-02-14Z16:50:22 [       Debug ] Column "g" seems to be text, this is good.
+2020-02-14Z16:50:22 [       Debug ] Column "f" seems to be text, this is good.
+2020-02-14Z16:50:22 [       Debug ] Column "cp" seems to be text, this is good.
+2020-02-14Z16:50:22 [       Debug ] Column "cp2" seems to be text, this is good.
+2020-02-14Z16:50:22 [       Debug ] Column "cv" seems to be text, this is good.
+2020-02-14Z16:50:22 [       Debug ] Column "cv2" seems to be text, this is good.
+2020-02-14Z16:50:22 [       Debug ] Column "h_is" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "a" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "beta" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "beta2" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "kappa" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "kappa2" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "ddpT" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "ddTp" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "dddX[1]" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "dddX[2]" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "dddX[3]" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "dddX[4]" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "dddX[5]" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "dddX[6]" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "MM" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "h2" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "d2" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "err_T" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "err_d" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "err_u" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "s_is" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "err_h_is" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "eta" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "lambda" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "Pr" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "p" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "T" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "d" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "h" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "u" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "s" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "g" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "f" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "cp" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "cp2" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "cv" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "cv2" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "h_is" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "a" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "beta" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "beta2" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "kappa" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "kappa2" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "ddpT" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "ddTp" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "dddX[1]" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "dddX[2]" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "dddX[3]" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "dddX[4]" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "dddX[5]" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "dddX[6]" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "MM" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "h2" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "d2" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "err_T" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "err_d" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "err_u" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "s_is" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Column "err_h_is" seems to be text, this is good.
+2020-02-14Z16:50:23 [       Debug ] Exiting with exit code "1".
+2020-02-14Z16:50:23 [ Information ] Comparing "c:\compare\Failed\ModelicaTest\Media\TestAllProperties\FlueGasSixComponents\FlueGasSixComponents.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\ModelicaTest\Media\TestAllProperties\FlueGasSixComponents\FlueGasSixComponents.csv"
+2020-02-14Z16:50:23 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:23 [ Information ] eta is valid
+2020-02-14Z16:50:23 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:23 [ Information ] lambda is valid
+2020-02-14Z16:50:23 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:23 [ Information ] Pr is valid
+2020-02-14Z16:50:23 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:23 [ Information ] p is valid
+2020-02-14Z16:50:23 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:23 [ Information ] T is valid
+2020-02-14Z16:50:23 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:23 [ Information ] d is valid
+2020-02-14Z16:50:24 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:24 [ Information ] h is valid
+2020-02-14Z16:50:24 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:24 [ Information ] u is valid
+2020-02-14Z16:50:24 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:24 [ Information ] s is valid
+2020-02-14Z16:50:24 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:24 [ Information ] g is valid
+2020-02-14Z16:50:24 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:24 [ Information ] f is valid
+2020-02-14Z16:50:24 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:24 [ Information ] cp is valid
+2020-02-14Z16:50:24 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:24 [ Information ] cp2 is valid
+2020-02-14Z16:50:24 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:24 [ Information ] cv is valid
+2020-02-14Z16:50:24 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:24 [ Information ] cv2 is valid
+2020-02-14Z16:50:24 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:24 [ Information ] h_is is valid
+2020-02-14Z16:50:24 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:24 [ Information ] a is valid
+2020-02-14Z16:50:24 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:24 [ Information ] beta is valid
+2020-02-14Z16:50:24 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:24 [ Information ] beta2 is valid
+2020-02-14Z16:50:24 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:24 [ Information ] kappa is valid
+2020-02-14Z16:50:24 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:24 [ Information ] kappa2 is valid
+2020-02-14Z16:50:24 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:24 [ Information ] ddpT is valid
+2020-02-14Z16:50:24 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:24 [ Information ] ddTp is valid
+2020-02-14Z16:50:24 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:24 [ Information ] dddX[1] is valid
+2020-02-14Z16:50:24 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:24 [ Information ] dddX[2] is valid
+2020-02-14Z16:50:24 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:24 [ Information ] dddX[3] is valid
+2020-02-14Z16:50:24 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:24 [ Information ] dddX[4] is valid
+2020-02-14Z16:50:24 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:24 [ Information ] dddX[5] is valid
+2020-02-14Z16:50:24 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:24 [ Information ] dddX[6] is valid
+2020-02-14Z16:50:24 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:25 [ Information ] MM is valid
+2020-02-14Z16:50:25 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:25 [ Information ] h2 is valid
+2020-02-14Z16:50:25 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:25 [ Information ] d2 is valid
+2020-02-14Z16:50:25 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:25 [ Information ] err_T is valid
+2020-02-14Z16:50:25 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:25 [ Information ] err_d is valid
+2020-02-14Z16:50:25 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:25 [ Information ] err_u is valid
+2020-02-14Z16:50:25 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:25 [ Information ] s_is is valid
+2020-02-14Z16:50:25 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:25 [     Warning ] err_h_is is invalid! 5003 errors have been found during validation.
+2020-02-14Z16:50:25 [ Information ] Report has been written to: c:\compare\MSLTEST400BETA1FAILED\ModelicaTest.Media.TestAllProperties.FlueGasSixComponents.FlueGasSixComponents_report.html
+2020-02-14Z16:50:25 [       Debug ] Searching for file SimpleAir.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-14Z16:50:25 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-14Z16:50:25 [       Debug ] Column "eps_h_is" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "eta" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "lambda" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "Pr" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "p" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "T" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "d" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "h" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "u" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "s" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "g" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "f" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "cp" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "cp2" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "cv" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "cv2" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "h_is" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "a" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "beta" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "beta2" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "kappa" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "kappa2" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "ddpT" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "ddTp" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "dddX[1]" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "MM" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "h2" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "d2" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "err_T" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "err_d" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "err_u" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "s_is" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "err_h_is" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "eps" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "eps_h_is" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "eta" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "lambda" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "Pr" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "p" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "T" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "d" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "h" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "u" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "s" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "g" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "f" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "cp" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "cp2" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "cv" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "cv2" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "h_is" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "a" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "beta" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "beta2" seems to be text, this is good.
+2020-02-14Z16:50:25 [       Debug ] Column "kappa" seems to be text, this is good.
+2020-02-14Z16:50:26 [       Debug ] Column "kappa2" seems to be text, this is good.
+2020-02-14Z16:50:26 [       Debug ] Column "ddpT" seems to be text, this is good.
+2020-02-14Z16:50:26 [       Debug ] Column "ddTp" seems to be text, this is good.
+2020-02-14Z16:50:26 [       Debug ] Column "dddX[1]" seems to be text, this is good.
+2020-02-14Z16:50:26 [       Debug ] Column "MM" seems to be text, this is good.
+2020-02-14Z16:50:26 [       Debug ] Column "h2" seems to be text, this is good.
+2020-02-14Z16:50:26 [       Debug ] Column "d2" seems to be text, this is good.
+2020-02-14Z16:50:26 [       Debug ] Column "err_T" seems to be text, this is good.
+2020-02-14Z16:50:26 [       Debug ] Column "err_d" seems to be text, this is good.
+2020-02-14Z16:50:26 [       Debug ] Column "err_u" seems to be text, this is good.
+2020-02-14Z16:50:26 [       Debug ] Column "s_is" seems to be text, this is good.
+2020-02-14Z16:50:26 [       Debug ] Column "err_h_is" seems to be text, this is good.
+2020-02-14Z16:50:26 [       Debug ] Column "eps" seems to be text, this is good.
+2020-02-14Z16:50:26 [       Debug ] Exiting with exit code "1".
+2020-02-14Z16:50:26 [ Information ] Comparing "c:\compare\Failed\ModelicaTest\Media\TestAllProperties\SimpleAir\SimpleAir.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\ModelicaTest\Media\TestAllProperties\SimpleAir\SimpleAir.csv"
+2020-02-14Z16:50:26 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:26 [ Information ] eps_h_is is valid
+2020-02-14Z16:50:26 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:26 [ Information ] eta is valid
+2020-02-14Z16:50:26 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:26 [ Information ] lambda is valid
+2020-02-14Z16:50:26 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:26 [ Information ] Pr is valid
+2020-02-14Z16:50:26 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:26 [ Information ] p is valid
+2020-02-14Z16:50:26 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:26 [ Information ] T is valid
+2020-02-14Z16:50:26 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:26 [ Information ] d is valid
+2020-02-14Z16:50:26 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:26 [ Information ] h is valid
+2020-02-14Z16:50:26 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:26 [ Information ] u is valid
+2020-02-14Z16:50:26 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:26 [ Information ] s is valid
+2020-02-14Z16:50:26 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:26 [ Information ] g is valid
+2020-02-14Z16:50:26 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:26 [ Information ] f is valid
+2020-02-14Z16:50:26 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:26 [ Information ] cp is valid
+2020-02-14Z16:50:26 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:26 [ Information ] cp2 is valid
+2020-02-14Z16:50:26 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:26 [ Information ] cv is valid
+2020-02-14Z16:50:26 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:26 [ Information ] cv2 is valid
+2020-02-14Z16:50:26 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:26 [ Information ] h_is is valid
+2020-02-14Z16:50:26 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:26 [ Information ] a is valid
+2020-02-14Z16:50:26 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:26 [ Information ] beta is valid
+2020-02-14Z16:50:26 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:26 [ Information ] beta2 is valid
+2020-02-14Z16:50:26 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:26 [ Information ] kappa is valid
+2020-02-14Z16:50:26 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:26 [ Information ] kappa2 is valid
+2020-02-14Z16:50:26 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:26 [ Information ] ddpT is valid
+2020-02-14Z16:50:26 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:26 [ Information ] ddTp is valid
+2020-02-14Z16:50:27 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:27 [ Information ] dddX[1] is valid
+2020-02-14Z16:50:27 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:27 [ Information ] MM is valid
+2020-02-14Z16:50:27 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:27 [ Information ] h2 is valid
+2020-02-14Z16:50:27 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:27 [ Information ] d2 is valid
+2020-02-14Z16:50:27 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:27 [ Information ] err_T is valid
+2020-02-14Z16:50:27 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:27 [ Information ] err_d is valid
+2020-02-14Z16:50:27 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:27 [ Information ] err_u is valid
+2020-02-14Z16:50:27 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:27 [     Warning ] s_is is invalid! 5003 errors have been found during validation.
+2020-02-14Z16:50:27 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:27 [     Warning ] err_h_is is invalid! 5003 errors have been found during validation.
+2020-02-14Z16:50:27 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:27 [ Information ] eps is valid
+2020-02-14Z16:50:27 [ Information ] Report has been written to: c:\compare\MSLTEST400BETA1FAILED\ModelicaTest.Media.TestAllProperties.SimpleAir.SimpleAir_report.html
+2020-02-14Z16:50:27 [       Debug ] Searching for file Joints.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-14Z16:50:27 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-14Z16:50:27 [       Debug ] Column "actuatedPrismatic.s" seems to be text, this is good.
+2020-02-14Z16:50:27 [       Debug ] Column "actuatedPrismatic.v" seems to be text, this is good.
+2020-02-14Z16:50:27 [       Debug ] Column "actuatedRevolute.phi" seems to be text, this is good.
+2020-02-14Z16:50:27 [       Debug ] Column "actuatedRevolute.w" seems to be text, this is good.
+2020-02-14Z16:50:27 [       Debug ] Column "bodyBox8.body.Q[1]" seems to be text, this is good.
+2020-02-14Z16:50:27 [       Debug ] Column "bodyBox8.body.Q[2]" seems to be text, this is good.
+2020-02-14Z16:50:27 [       Debug ] Column "bodyBox8.body.Q[3]" seems to be text, this is good.
+2020-02-14Z16:50:27 [       Debug ] Column "bodyBox8.body.Q[4]" seems to be text, this is good.
+2020-02-14Z16:50:27 [       Debug ] Column "bodyBox8.body.frame_a.r_0[1]" seems to be text, this is good.
+2020-02-14Z16:50:27 [       Debug ] Column "bodyBox8.body.frame_a.r_0[2]" seems to be text, this is good.
+2020-02-14Z16:50:27 [       Debug ] Column "bodyBox8.body.frame_a.r_0[3]" seems to be text, this is good.
+2020-02-14Z16:50:27 [       Debug ] Column "bodyBox8.body.w_a[1]" seems to be text, this is good.
+2020-02-14Z16:50:27 [       Debug ] Column "bodyBox8.body.w_a[2]" seems to be text, this is good.
+2020-02-14Z16:50:27 [       Debug ] Column "bodyBox8.body.w_a[3]" seems to be text, this is good.
+2020-02-14Z16:50:27 [       Debug ] Column "cylindrical.phi" seems to be text, this is good.
+2020-02-14Z16:50:27 [       Debug ] Column "cylindrical.s" seems to be text, this is good.
+2020-02-14Z16:50:27 [       Debug ] Column "cylindrical.v" seems to be text, this is good.
+2020-02-14Z16:50:27 [       Debug ] Column "cylindrical.w" seems to be text, this is good.
+2020-02-14Z16:50:27 [       Debug ] Column "freeMotion.Q[1]" seems to be text, this is good.
+2020-02-14Z16:50:27 [       Debug ] Column "freeMotion.Q[2]" seems to be text, this is good.
+2020-02-14Z16:50:27 [       Debug ] Column "freeMotion.Q[3]" seems to be text, this is good.
+2020-02-14Z16:50:27 [       Debug ] Column "freeMotion.Q[4]" seems to be text, this is good.
+2020-02-14Z16:50:27 [       Debug ] Column "freeMotion.r_rel_a[1]" seems to be text, this is good.
+2020-02-14Z16:50:27 [       Debug ] Column "freeMotion.r_rel_a[2]" seems to be text, this is good.
+2020-02-14Z16:50:27 [       Debug ] Column "freeMotion.r_rel_a[3]" seems to be text, this is good.
+2020-02-14Z16:50:27 [       Debug ] Column "freeMotion.v_rel_a[1]" seems to be text, this is good.
+2020-02-14Z16:50:27 [       Debug ] Column "freeMotion.v_rel_a[2]" seems to be text, this is good.
+2020-02-14Z16:50:27 [       Debug ] Column "freeMotion.v_rel_a[3]" seems to be text, this is good.
+2020-02-14Z16:50:27 [       Debug ] Column "freeMotion.w_rel_b[1]" seems to be text, this is good.
+2020-02-14Z16:50:27 [       Debug ] Column "freeMotion.w_rel_b[2]" seems to be text, this is good.
+2020-02-14Z16:50:27 [       Debug ] Column "freeMotion.w_rel_b[3]" seems to be text, this is good.
+2020-02-14Z16:50:27 [       Debug ] Column "planar.phi" seems to be text, this is good.
+2020-02-14Z16:50:27 [       Debug ] Column "planar.s_x" seems to be text, this is good.
+2020-02-14Z16:50:27 [       Debug ] Column "planar.s_y" seems to be text, this is good.
+2020-02-14Z16:50:27 [       Debug ] Column "planar.v_x" seems to be text, this is good.
+2020-02-14Z16:50:27 [       Debug ] Column "planar.v_y" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "planar.w" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "prismatic.s" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "prismatic.v" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "revolute.phi" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "revolute.w" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "universal.phi_a" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "universal.phi_b" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "universal.w_a" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "universal.w_b" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "actuatedPrismatic.s" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "actuatedPrismatic.v" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "actuatedRevolute.phi" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "actuatedRevolute.w" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "bodyBox8.body.Q[1]" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "bodyBox8.body.Q[2]" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "bodyBox8.body.Q[3]" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "bodyBox8.body.Q[4]" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "bodyBox8.body.frame_a.r_0[1]" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "bodyBox8.body.frame_a.r_0[2]" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "bodyBox8.body.frame_a.r_0[3]" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "bodyBox8.body.w_a[1]" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "bodyBox8.body.w_a[2]" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "bodyBox8.body.w_a[3]" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "cylindrical.phi" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "cylindrical.s" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "cylindrical.v" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "cylindrical.w" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "freeMotion.Q[1]" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "freeMotion.Q[2]" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "freeMotion.Q[3]" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "freeMotion.Q[4]" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "freeMotion.r_rel_a[1]" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "freeMotion.r_rel_a[2]" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "freeMotion.r_rel_a[3]" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "freeMotion.v_rel_a[1]" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "freeMotion.v_rel_a[2]" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "freeMotion.v_rel_a[3]" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "freeMotion.w_rel_b[1]" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "freeMotion.w_rel_b[2]" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "freeMotion.w_rel_b[3]" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "planar.phi" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "planar.s_x" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "planar.s_y" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "planar.v_x" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "planar.v_y" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "planar.w" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "prismatic.s" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "prismatic.v" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "revolute.phi" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "revolute.w" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "universal.phi_a" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "universal.phi_b" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "universal.w_a" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Column "universal.w_b" seems to be text, this is good.
+2020-02-14Z16:50:28 [       Debug ] Exiting with exit code "1".
+2020-02-14Z16:50:28 [ Information ] Comparing "c:\compare\Failed\ModelicaTest\MultiBody\InitializationConversion\Joints\Joints.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\ModelicaTest\MultiBody\InitializationConversion\Joints\Joints.csv"
+2020-02-14Z16:50:28 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:28 [ Information ] actuatedPrismatic.s is valid
+2020-02-14Z16:50:29 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:29 [ Information ] actuatedPrismatic.v is valid
+2020-02-14Z16:50:29 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:29 [ Information ] actuatedRevolute.phi is valid
+2020-02-14Z16:50:29 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:29 [ Information ] actuatedRevolute.w is valid
+2020-02-14Z16:50:29 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:29 [ Information ] bodyBox8.body.Q[1] is valid
+2020-02-14Z16:50:29 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:29 [ Information ] bodyBox8.body.Q[2] is valid
+2020-02-14Z16:50:29 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:29 [ Information ] bodyBox8.body.Q[3] is valid
+2020-02-14Z16:50:29 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:29 [ Information ] bodyBox8.body.Q[4] is valid
+2020-02-14Z16:50:29 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:29 [     Warning ] bodyBox8.body.frame_a.r_0[1] is invalid! 5002 errors have been found during validation.
+2020-02-14Z16:50:29 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:29 [     Warning ] bodyBox8.body.frame_a.r_0[2] is invalid! 5002 errors have been found during validation.
+2020-02-14Z16:50:29 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:29 [ Information ] bodyBox8.body.frame_a.r_0[3] is valid
+2020-02-14Z16:50:29 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:29 [ Information ] bodyBox8.body.w_a[1] is valid
+2020-02-14Z16:50:29 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:29 [ Information ] bodyBox8.body.w_a[2] is valid
+2020-02-14Z16:50:29 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:29 [ Information ] bodyBox8.body.w_a[3] is valid
+2020-02-14Z16:50:30 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:30 [ Information ] cylindrical.phi is valid
+2020-02-14Z16:50:30 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:30 [ Information ] cylindrical.s is valid
+2020-02-14Z16:50:30 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:30 [ Information ] cylindrical.v is valid
+2020-02-14Z16:50:30 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:30 [ Information ] cylindrical.w is valid
+2020-02-14Z16:50:30 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:30 [ Information ] freeMotion.Q[1] is valid
+2020-02-14Z16:50:30 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:30 [ Information ] freeMotion.Q[2] is valid
+2020-02-14Z16:50:30 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:30 [ Information ] freeMotion.Q[3] is valid
+2020-02-14Z16:50:30 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:30 [ Information ] freeMotion.Q[4] is valid
+2020-02-14Z16:50:30 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:30 [ Information ] freeMotion.r_rel_a[1] is valid
+2020-02-14Z16:50:30 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:30 [ Information ] freeMotion.r_rel_a[2] is valid
+2020-02-14Z16:50:30 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:30 [ Information ] freeMotion.r_rel_a[3] is valid
+2020-02-14Z16:50:30 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:30 [     Warning ] freeMotion.v_rel_a[1] is invalid! 5 errors have been found during validation.
+2020-02-14Z16:50:30 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:30 [     Warning ] freeMotion.v_rel_a[2] is invalid! 2255 errors have been found during validation.
+2020-02-14Z16:50:30 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:30 [ Information ] freeMotion.v_rel_a[3] is valid
+2020-02-14Z16:50:30 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:30 [ Information ] freeMotion.w_rel_b[1] is valid
+2020-02-14Z16:50:30 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:30 [ Information ] freeMotion.w_rel_b[2] is valid
+2020-02-14Z16:50:31 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:31 [ Information ] freeMotion.w_rel_b[3] is valid
+2020-02-14Z16:50:31 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:31 [ Information ] planar.phi is valid
+2020-02-14Z16:50:31 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:31 [ Information ] planar.s_x is valid
+2020-02-14Z16:50:31 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:31 [ Information ] planar.s_y is valid
+2020-02-14Z16:50:31 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:31 [ Information ] planar.v_x is valid
+2020-02-14Z16:50:31 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:31 [ Information ] planar.v_y is valid
+2020-02-14Z16:50:31 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:31 [     Warning ] planar.w is invalid! 3594 errors have been found during validation.
+2020-02-14Z16:50:31 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:31 [ Information ] prismatic.s is valid
+2020-02-14Z16:50:31 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:31 [     Warning ] prismatic.v is invalid! 406 errors have been found during validation.
+2020-02-14Z16:50:32 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:32 [ Information ] revolute.phi is valid
+2020-02-14Z16:50:32 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:32 [ Information ] revolute.w is valid
+2020-02-14Z16:50:32 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:32 [ Information ] universal.phi_a is valid
+2020-02-14Z16:50:32 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:32 [ Information ] universal.phi_b is valid
+2020-02-14Z16:50:32 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:32 [ Information ] universal.w_a is valid
+2020-02-14Z16:50:32 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:32 [ Information ] universal.w_b is valid
+2020-02-14Z16:50:33 [ Information ] Report has been written to: c:\compare\MSLTEST400BETA1FAILED\ModelicaTest.MultiBody.InitializationConversion.Joints.Joints_report.html
+2020-02-14Z16:50:33 [       Debug ] Searching for file UniversalSpherical.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-14Z16:50:33 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-14Z16:50:33 [       Debug ] Column "bodyBox.body.Q[1]" seems to be text, this is good.
+2020-02-14Z16:50:33 [       Debug ] Column "bodyBox.body.Q[2]" seems to be text, this is good.
+2020-02-14Z16:50:33 [       Debug ] Column "bodyBox.body.Q[3]" seems to be text, this is good.
+2020-02-14Z16:50:33 [       Debug ] Column "bodyBox.body.Q[4]" seems to be text, this is good.
+2020-02-14Z16:50:33 [       Debug ] Column "bodyBox.body.w_a[1]" seems to be text, this is good.
+2020-02-14Z16:50:33 [       Debug ] Column "bodyBox.body.w_a[2]" seems to be text, this is good.
+2020-02-14Z16:50:33 [       Debug ] Column "bodyBox.body.w_a[3]" seems to be text, this is good.
+2020-02-14Z16:50:33 [       Debug ] Column "bodyBox.v_0[1]" seems to be text, this is good.
+2020-02-14Z16:50:33 [       Debug ] Column "bodyBox.v_0[2]" seems to be text, this is good.
+2020-02-14Z16:50:33 [       Debug ] Column "bodyBox.v_0[3]" seems to be text, this is good.
+2020-02-14Z16:50:33 [       Debug ] Column "bodyBox1.body.Q[1]" seems to be text, this is good.
+2020-02-14Z16:50:33 [       Debug ] Column "bodyBox1.body.Q[2]" seems to be text, this is good.
+2020-02-14Z16:50:33 [       Debug ] Column "bodyBox1.body.Q[3]" seems to be text, this is good.
+2020-02-14Z16:50:33 [       Debug ] Column "bodyBox1.body.Q[4]" seems to be text, this is good.
+2020-02-14Z16:50:33 [       Debug ] Column "bodyBox1.body.w_a[1]" seems to be text, this is good.
+2020-02-14Z16:50:33 [       Debug ] Column "bodyBox1.body.w_a[2]" seems to be text, this is good.
+2020-02-14Z16:50:33 [       Debug ] Column "bodyBox1.body.w_a[3]" seems to be text, this is good.
+2020-02-14Z16:50:33 [       Debug ] Column "bodyBox2.body.Q[1]" seems to be text, this is good.
+2020-02-14Z16:50:33 [       Debug ] Column "bodyBox2.body.Q[2]" seems to be text, this is good.
+2020-02-14Z16:50:33 [       Debug ] Column "bodyBox2.body.Q[3]" seems to be text, this is good.
+2020-02-14Z16:50:33 [       Debug ] Column "bodyBox2.body.Q[4]" seems to be text, this is good.
+2020-02-14Z16:50:33 [       Debug ] Column "bodyBox2.body.frame_a.r_0[1]" seems to be text, this is good.
+2020-02-14Z16:50:33 [       Debug ] Column "bodyBox2.body.frame_a.r_0[2]" seems to be text, this is good.
+2020-02-14Z16:50:33 [       Debug ] Column "bodyBox2.body.frame_a.r_0[3]" seems to be text, this is good.
+2020-02-14Z16:50:33 [       Debug ] Column "bodyBox2.body.w_a[1]" seems to be text, this is good.
+2020-02-14Z16:50:33 [       Debug ] Column "bodyBox2.body.w_a[2]" seems to be text, this is good.
+2020-02-14Z16:50:33 [       Debug ] Column "bodyBox2.body.w_a[3]" seems to be text, this is good.
+2020-02-14Z16:50:33 [       Debug ] Column "bodyBox2.v_0[1]" seems to be text, this is good.
+2020-02-14Z16:50:33 [       Debug ] Column "bodyBox2.v_0[2]" seems to be text, this is good.
+2020-02-14Z16:50:33 [       Debug ] Column "bodyBox2.v_0[3]" seems to be text, this is good.
+2020-02-14Z16:50:33 [       Debug ] Column "universal.phi_a" seems to be text, this is good.
+2020-02-14Z16:50:33 [       Debug ] Column "universal.phi_b" seems to be text, this is good.
+2020-02-14Z16:50:33 [       Debug ] Column "universal.w_a" seems to be text, this is good.
+2020-02-14Z16:50:33 [       Debug ] Column "universal.w_b" seems to be text, this is good.
+2020-02-14Z16:50:33 [       Debug ] Column "universalSpherical.rRod_0[1]" seems to be text, this is good.
+2020-02-14Z16:50:33 [       Debug ] Column "universalSpherical.rRod_0[2]" seems to be text, this is good.
+2020-02-14Z16:50:33 [       Debug ] Column "universalSpherical.rRod_0[3]" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "bodyBox.body.Q[1]" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "bodyBox.body.Q[2]" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "bodyBox.body.Q[3]" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "bodyBox.body.Q[4]" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "bodyBox.body.w_a[1]" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "bodyBox.body.w_a[2]" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "bodyBox.body.w_a[3]" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "bodyBox.v_0[1]" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "bodyBox.v_0[2]" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "bodyBox.v_0[3]" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "bodyBox1.body.Q[1]" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "bodyBox1.body.Q[2]" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "bodyBox1.body.Q[3]" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "bodyBox1.body.Q[4]" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "bodyBox1.body.w_a[1]" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "bodyBox1.body.w_a[2]" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "bodyBox1.body.w_a[3]" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "bodyBox2.body.Q[1]" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "bodyBox2.body.Q[2]" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "bodyBox2.body.Q[3]" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "bodyBox2.body.Q[4]" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "bodyBox2.body.frame_a.r_0[1]" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "bodyBox2.body.frame_a.r_0[2]" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "bodyBox2.body.frame_a.r_0[3]" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "bodyBox2.body.w_a[1]" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "bodyBox2.body.w_a[2]" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "bodyBox2.body.w_a[3]" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "bodyBox2.v_0[1]" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "bodyBox2.v_0[2]" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "bodyBox2.v_0[3]" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "universal.phi_a" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "universal.phi_b" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "universal.w_a" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "universal.w_b" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "universalSpherical.rRod_0[1]" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "universalSpherical.rRod_0[2]" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Column "universalSpherical.rRod_0[3]" seems to be text, this is good.
+2020-02-14Z16:50:34 [       Debug ] Exiting with exit code "1".
+2020-02-14Z16:50:34 [ Information ] Comparing "c:\compare\Failed\ModelicaTest\MultiBody\Joints\UniversalSpherical\UniversalSpherical.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\ModelicaTest\MultiBody\Joints\UniversalSpherical\UniversalSpherical.csv"
+2020-02-14Z16:50:34 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:34 [     Warning ] bodyBox.body.Q[1] is invalid! 4210 errors have been found during validation.
+2020-02-14Z16:50:35 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:35 [     Warning ] bodyBox.body.Q[2] is invalid! 4537 errors have been found during validation.
+2020-02-14Z16:50:35 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:35 [ Information ] bodyBox.body.Q[3] is valid
+2020-02-14Z16:50:35 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:35 [ Information ] bodyBox.body.Q[4] is valid
+2020-02-14Z16:50:35 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:35 [     Warning ] bodyBox.body.w_a[1] is invalid! 4967 errors have been found during validation.
+2020-02-14Z16:50:35 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:35 [     Warning ] bodyBox.body.w_a[2] is invalid! 4816 errors have been found during validation.
+2020-02-14Z16:50:35 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:35 [ Information ] bodyBox.body.w_a[3] is valid
+2020-02-14Z16:50:35 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:35 [ Information ] bodyBox.v_0[1] is valid
+2020-02-14Z16:50:35 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:35 [ Information ] bodyBox.v_0[2] is valid
+2020-02-14Z16:50:35 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:35 [     Warning ] bodyBox.v_0[3] is invalid! 4760 errors have been found during validation.
+2020-02-14Z16:50:35 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:35 [     Warning ] bodyBox1.body.Q[1] is invalid! 4188 errors have been found during validation.
+2020-02-14Z16:50:35 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:35 [     Warning ] bodyBox1.body.Q[2] is invalid! 4702 errors have been found during validation.
+2020-02-14Z16:50:36 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:36 [ Information ] bodyBox1.body.Q[3] is valid
+2020-02-14Z16:50:36 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:36 [ Information ] bodyBox1.body.Q[4] is valid
+2020-02-14Z16:50:36 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:36 [ Information ] bodyBox1.body.w_a[1] is valid
+2020-02-14Z16:50:36 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:36 [     Warning ] bodyBox1.body.w_a[2] is invalid! 4633 errors have been found during validation.
+2020-02-14Z16:50:36 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:36 [ Information ] bodyBox1.body.w_a[3] is valid
+2020-02-14Z16:50:36 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:36 [     Warning ] bodyBox2.body.Q[1] is invalid! 4977 errors have been found during validation.
+2020-02-14Z16:50:36 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:36 [     Warning ] bodyBox2.body.Q[2] is invalid! 4982 errors have been found during validation.
+2020-02-14Z16:50:36 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:36 [ Information ] bodyBox2.body.Q[3] is valid
+2020-02-14Z16:50:36 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:36 [ Information ] bodyBox2.body.Q[4] is valid
+2020-02-14Z16:50:36 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:36 [ Information ] bodyBox2.body.frame_a.r_0[1] is valid
+2020-02-14Z16:50:36 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:36 [ Information ] bodyBox2.body.frame_a.r_0[2] is valid
+2020-02-14Z16:50:36 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:36 [     Warning ] bodyBox2.body.frame_a.r_0[3] is invalid! 4853 errors have been found during validation.
+2020-02-14Z16:50:36 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:36 [     Warning ] bodyBox2.body.w_a[1] is invalid! 4956 errors have been found during validation.
+2020-02-14Z16:50:37 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:37 [     Warning ] bodyBox2.body.w_a[2] is invalid! 4970 errors have been found during validation.
+2020-02-14Z16:50:37 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:37 [ Information ] bodyBox2.body.w_a[3] is valid
+2020-02-14Z16:50:37 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:37 [ Information ] bodyBox2.v_0[1] is valid
+2020-02-14Z16:50:37 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:37 [ Information ] bodyBox2.v_0[2] is valid
+2020-02-14Z16:50:37 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:37 [     Warning ] bodyBox2.v_0[3] is invalid! 4948 errors have been found during validation.
+2020-02-14Z16:50:37 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:37 [     Warning ] universal.phi_a is invalid! 5002 errors have been found during validation.
+2020-02-14Z16:50:37 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:37 [     Warning ] universal.phi_b is invalid! 4919 errors have been found during validation.
+2020-02-14Z16:50:37 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:37 [     Warning ] universal.w_a is invalid! 5002 errors have been found during validation.
+2020-02-14Z16:50:37 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:37 [     Warning ] universal.w_b is invalid! 4969 errors have been found during validation.
+2020-02-14Z16:50:37 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:37 [ Information ] universalSpherical.rRod_0[1] is valid
+2020-02-14Z16:50:37 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:37 [ Information ] universalSpherical.rRod_0[2] is valid
+2020-02-14Z16:50:37 [       Debug ] The resolution of the base x-axis is good.
+2020-02-14Z16:50:37 [     Warning ] universalSpherical.rRod_0[3] is invalid! 3766 errors have been found during validation.
+2020-02-14Z16:50:41 [ Information ] Report has been written to: c:\compare\MSLTEST400BETA1FAILED\ModelicaTest.MultiBody.Joints.UniversalSpherical.UniversalSpherical_report.html
+2020-02-14Z16:50:41 [ Information ] Writing meta report to c:\compare\MSLTEST400BETA1FAILED\2020-02-14-index.html
+2020-02-14Z16:50:41 [ Information ] Meta report has been written to: c:\compare\MSLTEST400BETA1FAILED\2020-02-14-index.html
